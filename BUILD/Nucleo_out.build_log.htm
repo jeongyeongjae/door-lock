@@ -1,0 +1,96 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¥ìVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: a b silla Flex license: MDK-ARM Plus: 60 user(s) (mdk_plus) Support: Aug 2019
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus: 60 user(s)  Version: 5.27.1.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         
+Dialog DLL:      DCM.DLL V1.17.2.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.6.0
+Dialog DLL:      TCM.DLL V1.36.1.0
+ 
+<h2>Project:</h2>
+C:\Users\User\Desktop\es-term-01-ÇöÀç\test04\test04.uvprojx
+Project File Date:  06/09/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'STM32F401 Flash'
+compiling DHT22.cpp...
+DHT22.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+DHT22.cpp: 1 warning, 0 errors
+compiling motordriver.cpp...
+motordriver.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif
+motordriver.cpp(59): warning:  #1-D: last line of file ends without a newline
+  }
+motordriver.cpp: 2 warnings, 0 errors
+compiling Adafruit_SSD1306.cpp...
+Adafruit_GFX\Adafruit_GFX_Config.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+Adafruit_GFX\Adafruit_SSD1306.h(220): warning:  #1-D: last line of file ends without a newline
+  #endif
+Adafruit_GFX\Adafruit_SSD1306.cpp: 2 warnings, 0 errors
+compiling Adafruit_GFX.cpp...
+Adafruit_GFX\Adafruit_GFX_Config.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+Adafruit_GFX\Adafruit_GFX.cpp: 1 warning, 0 errors
+compiling main.cpp...
+.\Adafruit_GFX\Adafruit_GFX_Config.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+.\Adafruit_GFX\Adafruit_SSD1306.h(220): warning:  #1-D: last line of file ends without a newline
+  #endif
+motordriver.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif
+DHT22.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.cpp(93): warning:  #940-D: missing return statement at end of non-void function "detectBtnEdge1" 
+  }
+main.cpp(85): warning:  #550-D: variable "value"  was set but never used
+  	edge_t value = NO_EDGE;
+main.cpp(105): warning:  #940-D: missing return statement at end of non-void function "detectBtnEdge2" 
+  }
+main.cpp(97): warning:  #550-D: variable "value"  was set but never used
+  	edge_t value = NO_EDGE;
+main.cpp(117): warning:  #940-D: missing return statement at end of non-void function "detectBtnEdge3" 
+  }
+main.cpp(109): warning:  #550-D: variable "value"  was set but never used
+  	edge_t value = NO_EDGE;
+main.cpp(361): warning:  #111-D: statement is unreachable
+  	wait(0.2);
+main.cpp(362): warning:  #1-D: last line of file ends without a newline
+  }
+main.cpp: 12 warnings, 0 errors
+linking...
+Program Size: Code=56312 RO-data=5920 RW-data=1664 ZI-data=2628  
+After Build - User command #1: fromelf --bin -o Nucleo_out.bin .\BUILD\Nucleo_out.axf
+".\BUILD\Nucleo_out.axf" - 0 Error(s), 18 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.16.0.pack
+                Keil.STM32F4xx_DFP.2.16.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_STM32F401_Flash
+  C:\Users\User\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
